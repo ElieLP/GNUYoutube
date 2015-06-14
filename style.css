@@ -1,0 +1,100 @@
+html {
+	background-color: #c0392b;
+}
+input::-webkit-input-placeholder {
+	
+	letter-spacing: 2px;
+	text-align: center;
+	font: sans-serif;
+	color: #2c3e50;
+}
+input::-moz-placeholder {
+	
+	letter-spacing: 4px;
+	text-align: center;
+	font: sans-serif;
+	color: #2c3e50;
+}
+input:-moz-placeholder {
+	
+	letter-spacing: 2px;
+	text-align: center;
+	font: sans-serif;
+	color: #2c3e50;
+}
+input:-ms-input-placeholder {
+
+	text-align: center;
+	font: sans-serif;
+	color: #2c3e50;
+}
+input {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 17px;
+	display: block;
+	margin-top: 70px;
+	background-color: #ecf0f1;
+	margin-left: 35%;
+	margin-right: 65%;
+	border: 2px solid #FFFFFF; 	
+	height: 50px;
+	width: 700px;
+	border-radius: 3px;
+	line-height: 22px;
+}
+.logo {
+	display: block;
+	margin-right: auto; 
+	margin-left: auto;
+	width: 600px;
+}
+.boutons {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px 36px;
+	font-size: 24px;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+.boutons:active {
+	padding-top: 15px;
+        margin-bottom: -1px;
+}
+.boutons, .boutons:hover, .boutons:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+.bouton-go {
+	display: block;
+	margin-top: 30px;
+	margin-left: 35%;
+	margin-right: 60%;
+	background-color: #3fb8e8;
+	box-shadow: 0px 3px 0px 0px #3293ba;	
+}
+.bouton-go:hover {
+	background-color: #1baae3;
+}
+.bouton-go:active {
+	box-shadow: 0px 1px 0px 0px #3293ba;
+}
