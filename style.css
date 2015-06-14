@@ -1,6 +1,12 @@
 html {
 	background-color: #c0392b;
 }
+iframe{
+	display: block;
+	margin-left: 55%;
+	margin-right: 45%;
+	border: none;
+}
 input::-webkit-input-placeholder {
 	
 	letter-spacing: 2px;
@@ -73,7 +79,7 @@ input {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: sans-serif;
 }
 .boutons:active {
 	padding-top: 15px;

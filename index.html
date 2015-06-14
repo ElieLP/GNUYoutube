@@ -8,7 +8,12 @@
 </head>
 <body>
 		<img src="img/GNUYoutube_Logo.png" alt="Logo GNUYoutube" class="logo" />
-		<input type="text" name="link" id="link" placeholder="http://www.youtube.com/watch?v=XXXXXXX" />
-		<a href="" class="boutons bouton-go">Go</a>
+		<input type="text" name="link" id="link" placeholder="http://www.youtube.com/watch?v=XXXXXXX" value="<?php echo htmlspecialchars($youtubelink); ?> />
+		<a onclick="afficher();"class="boutons bouton-go">Go</a>
+		<?php
+			$captcha = shell_exec('curl -s $youtubelink | grep iframe');
+			echo $captcha;
+		?>
+
 </body>
 </html>
